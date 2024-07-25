@@ -1,10 +1,17 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-vector<int> ans(int arr[], int k,int n){
-    for(int i=0;)
+void ans(int arr[],int n,int k =10){
+
+    for(int i=0;i<n;i++){
+        if(arr[i]<k){
+           cout<<(arr[i])<<" ";
+        }
+    }
 }
 int main(){
- int   arr[]= {10,2,3,5,16};
+ int   a[]= {10,2,3,5,16};
+ ans(a,5);
+
 
 }
