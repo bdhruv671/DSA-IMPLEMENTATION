@@ -7,5 +7,4 @@ vector<int> ans(int arr[], int k,int n){
 int main(){
  int   arr[]= {10,2,3,5,16};
 
-
 }

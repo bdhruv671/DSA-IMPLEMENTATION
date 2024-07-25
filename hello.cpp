@@ -12,7 +12,7 @@ int main (){
             pair<int, char> p(a[i],b[i]);
         
         }
-        sort(vec.begin(), vec.end());\ik
+        sort(vec.begin(), vec.end());
         for(int i=0; i<n; i++){
             cout<<vec[i].second<<" ";
         }

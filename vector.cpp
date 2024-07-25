@@ -8,3 +8,4 @@ int main(){
     cout<< v.size()<<" ";
     cout << v.capacity()<<endl;
     }
+    
