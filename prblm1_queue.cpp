@@ -13,7 +13,7 @@ void reverse(queue<int>q,int k){
     st.pop();
 
 
-  }bn
+  }
 
 q.pop();
 q.pop();
