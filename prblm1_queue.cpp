@@ -6,7 +6,7 @@ void reverse(queue<int>q,int k){
         st.push(q.front());
         q.pop();
     }
-bh
+
 //   cout<<  st.back();
   for (int i =0; i<k;i++){
     q.push(st.top());
