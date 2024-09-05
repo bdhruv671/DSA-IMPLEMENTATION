@@ -11,7 +11,7 @@ struct Node{
 };
 
 
-void Nth(Node * head , int n){
+void Nth(Node * head,n ){
     // Node * first = head -> next -> next;
     // Node * sec = head ;
     // while (first != NULL){
@@ -43,6 +43,6 @@ int main (){
     head->next -> next = new Node(30);
     head->next ->next -> next = new Node(40);    
 
-    Nth(head , n);
+    Nth(head ,n);
     return 0;
 }
