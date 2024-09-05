@@ -12,14 +12,28 @@ struct Node{
 
 
 void Nth(Node * head , int n){
-    Node * first = head -> next -> next;
-    Node * sec = head ;
-    while (first != NULL){
-        first = first -> next;
-        sec = sec -> next;
-    }
+    // Node * first = head -> next -> next;
+    // Node * sec = head ;
+    // while (first != NULL){
+    //     first = first -> next;
+    //     sec = sec -> next;
+    // }
 
-    cout << sec->data;
+    // cout << sec->data;
+
+    if (head == NULL)return ;
+    Node * first = head;
+    for ( int i = 0 ; i< n; i++){
+
+        if ( first == NULL)return ;
+        first = first -> next;
+    }
+    Node * sec = head ;
+    while ( first != NULL ){
+        first = first -> next ;
+        sec = sec -> next ;
+    }
+    cout << sec-> data ;
 
 }
 int main (){
